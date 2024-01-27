@@ -1,8 +1,18 @@
 .homeWrapper{
     background-image: url('https://raw.githubusercontent.com/ElizaCalmau/Lucy_drawing/develop/src/assets/hero_bg.jpg?token=GHSAT0AAAAAACIKVT7VW5MSWCAC3US6ILC2ZNVABYA');
     width: 100vw;
-    height: 100vh;
+    height: 35em;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.homeWrapper::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.202);
+    width: 100%;
+    height: 100%;
 }
