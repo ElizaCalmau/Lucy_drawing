@@ -1,0 +1,12 @@
+.navButton {
+    border-radius: 0;
+    background-color: rgba(97, 97, 97, 0.455);
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+}
+
+button:focus,
+button:focus-visible{
+    border-bottom: 1px solid #fff;
+}

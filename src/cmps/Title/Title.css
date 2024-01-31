@@ -2,3 +2,7 @@
     z-index: 100;
     position: relative;
 }
+
+.titleWrapper h1{
+    font-size: 4em;
+}

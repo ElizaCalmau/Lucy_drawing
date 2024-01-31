@@ -1,18 +1,22 @@
 .homeWrapper{
     background-image: url('../../assets/Lucy-11.jpg');
     width: 100vw;
-    height: 60%;
+    height: 65%;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .homeWrapper::before{
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 30%);
+    background: linear-gradient(rgb(0 0 0 / 86%), rgb(108 108 108 / 55%));
     width: 100%;
     height: 100%;
 }
