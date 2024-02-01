@@ -1,0 +1,42 @@
+/* @keyframes slidein {
+    from {
+        transform: translateX(0%);
+      }
+    
+      to {
+        transform: translateX(100%);
+      }
+}
+
+h2{
+    position: relative;
+    animation: slidein 1s ease-in;
+} */
+
+.aboutMeWrapper{
+    display: flex;
+    width: 70%;
+    margin: 5em auto;
+}
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      opacity: 100%;
+    }
+  }
+
+.aboutMePhoto{
+    background-image: url('../../assets/Lucy-43.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 41em;
+    animation: slideIn 1s ease-in-out;
+}
