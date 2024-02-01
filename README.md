@@ -11,4 +11,4 @@ categories:
  - creating categories reducer and state - 40min 
  
 about me: 
-(15:50 - )
+ 1h 15 min

@@ -1,8 +1,10 @@
 .aboutMeWrapper{
     display: flex;
-    width: 70%;
-    margin: 3em auto;
-    gap: 3em;
+    width: 100%;
+    /* gap: 3em; */
+    padding: 3em 6em;
+    box-sizing: border-box;
+    background-color: #52463b;
 }
 
 .aboutMeWrapper h2 {
@@ -28,8 +30,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 70%;
-    height: 41em;
+    width: 49%;
+    height: 33em;
     animation: slideIn 1s ease-in-out;
 }
 
@@ -48,7 +50,17 @@
 .aboutMeDescription  {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     animation: slideInFromRight 1s ease-in-out;
+}
+
+.aboutMeDescription h2 {
+    width: 10em;
+}
+
+.aboutMeDescription p {
+    width: 40%;
 }
 
 @keyframes slideInFromBottom {
@@ -64,6 +76,7 @@
   }
 
 .aboutMeDescription button{
-    margin-top: auto;
+    /* margin-top: auto; */
+    width: 35%;
     animation: slideInFromBottom 1s ease-in-out;
 }
