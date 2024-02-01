@@ -1,22 +1,14 @@
-/* @keyframes slidein {
-    from {
-        transform: translateX(0%);
-      }
-    
-      to {
-        transform: translateX(100%);
-      }
-}
-
-h2{
-    position: relative;
-    animation: slidein 1s ease-in;
-} */
-
 .aboutMeWrapper{
     display: flex;
     width: 70%;
-    margin: 5em auto;
+    margin: 3em auto;
+    gap: 3em;
+}
+
+.aboutMeWrapper h2 {
+    font-size: 3em;
+    border-bottom: 1px solid white;
+    margin-bottom: 0;
 }
 
 @keyframes slideIn {
@@ -39,4 +31,39 @@ h2{
     width: 70%;
     height: 41em;
     animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      opacity: 100%;
+    }
+  }
+
+.aboutMeDescription  {
+    display: flex;
+    flex-direction: column;
+    animation: slideInFromRight 1s ease-in-out;
+}
+
+@keyframes slideInFromBottom {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0);
+      opacity: 100%;
+    }
+  }
+
+.aboutMeDescription button{
+    margin-top: auto;
+    animation: slideInFromBottom 1s ease-in-out;
 }

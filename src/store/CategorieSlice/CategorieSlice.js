@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 export const CategorieSlice = createSlice({
     name: 'categorie',
     initialState: {
-        categorie: ''
+        categorie: 'About me'
     },
     reducers: {
         setCategory: (state, action) => {
