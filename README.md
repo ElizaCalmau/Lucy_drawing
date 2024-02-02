@@ -12,4 +12,5 @@ categories:
  
 about me: 
  1h 15 min
- -routing (12;55 - )
+ -routing 10 min
+styles: 13:10 - 

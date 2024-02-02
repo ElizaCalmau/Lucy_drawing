@@ -2,10 +2,9 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    /* gap: 3em; */
     padding: 3em 6em;
     box-sizing: border-box;
-    background-color: #52463b;
+    background-color: #352A24;
 }
 
 .aboutMeWrapper h2 {
