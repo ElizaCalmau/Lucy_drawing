@@ -1,5 +1,6 @@
 .aboutMeWrapper{
     display: flex;
+    justify-content: center;
     width: 100%;
     /* gap: 3em; */
     padding: 3em 6em;
@@ -25,7 +26,7 @@
     }
   }
 
-.aboutMePhoto{
+/* .aboutMePhoto{
     background-image: url('../../assets/Lucy-43.jpg');
     background-size: cover;
     background-position: center;
@@ -33,6 +34,11 @@
     width: 49%;
     height: 33em;
     animation: slideIn 1s ease-in-out;
+} */
+
+.aboutMeWrapper img {
+  width: 30%;
+  animation: slideIn 1s ease-in-out;
 }
 
 @keyframes slideInFromRight {
