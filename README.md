@@ -13,4 +13,4 @@ categories:
 about me: 
  1h 15 min
  -routing 10 min
-styles: 13:10 - 
+styles + design solutions - 20 min
