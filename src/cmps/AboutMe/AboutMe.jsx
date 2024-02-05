@@ -4,7 +4,7 @@ export const AboutMe = () => {
     return (
         <>
             <div className='aboutMeWrapper'>
-                <img src='/images/Lucy-43.jpg' alt='Lucia photo'/>
+                <img src='/images/about-me-ph.jpg' alt='Lucia photo'/>
                 <div className='aboutMeDescription'>
                     <div>
                         <h2>I am Lucia</h2>

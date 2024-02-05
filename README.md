@@ -14,3 +14,4 @@ about me:
  1h 15 min
  -routing 10 min
 styles + design solutions - 20 min
+35 min - solving issue with img path
