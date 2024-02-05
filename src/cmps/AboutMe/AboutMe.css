@@ -25,15 +25,7 @@
     }
   }
 
-/* .aboutMePhoto{
-    background-image: url('../../assets/Lucy-43.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 49%;
-    height: 33em;
-    animation: slideIn 1s ease-in-out;
-} */
+
 
 .aboutMeWrapper img {
   width: 30%;
